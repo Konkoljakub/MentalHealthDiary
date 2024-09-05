@@ -16,7 +16,7 @@
             android:name=".DiaryActivity"
             android:exported="false" />
         <activity
-            android:name=".Yourday"
+            android:name=".YourDayActivity"
             android:exported="false"
             android:label="@string/title_activity_yourday"
             android:theme="@style/Theme.MyApplication" />

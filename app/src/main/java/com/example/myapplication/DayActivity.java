@@ -19,7 +19,7 @@ public class DayActivity extends AppCompatActivity {
         textYourday.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent (DayActivity.this, YourDay.class);
+                Intent intent = new Intent (DayActivity.this, YourDayActivity.class);
                 startActivity(intent);
             }
         });
